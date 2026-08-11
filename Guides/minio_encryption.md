@@ -13,10 +13,10 @@ We protect our documents using two separate layers of encryption:
 ```mermaid
 %%{init: {'theme': 'neutral', 'themeVariables': { 'background': 'transparent' }}}%%
 sequenceDiagram
-    participant User as 👤 You
-    participant NC as ☁️ Nextcloud Server
-    participant MinIO as 🗄️ MinIO S3 API
-    participant Disk as 💾 Hard Drive
+    participant User as You
+    participant NC as Nextcloud Server
+    participant MinIO as MinIO S3 API
+    participant Disk as Hard Drive
     
     User->>NC: Uploads "Secret.docx"
     NC->>NC: Encrypts file with Nextcloud Master Key (Layer 1)

@@ -27,8 +27,8 @@ graph TD
 ```mermaid
 %%{init: {'theme': 'neutral', 'themeVariables': { 'background': 'transparent' }}}%%
 flowchart TD
-    User["👤 You (Laptop)"] -->|"1. Opens document"| Storage["🗄️ Nextcloud Vault"]
-    Storage -->|"2. Grants permission (Secure Key)"| Server["🏢 Euro-Office Server"]
+    User["You (Laptop)"] -->|"1. Opens document"| Storage["Nextcloud Vault"]
+    Storage -->|"2. Grants permission (Secure Key)"| Server["Euro-Office Server"]
     Server -->|"3. Sends document data"| User
     User -->|"4. Edits document locally (Fast!)"| User
     User -->|"5. Clicks Save / closes tab"| Server

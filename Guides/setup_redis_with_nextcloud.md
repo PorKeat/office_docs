@@ -10,19 +10,19 @@ Redis fixes this by using **RAM (Lightning-Fast Memory)** instead of the hard dr
 ### The Benefits:
 
 > [!TIP]
-> **🚀 Fixes Office Lag**
+> **<img src="https://icongr.am/feather/send.svg?size=24&color=3b82f6" width="24" height="24" align="top"> Fixes Office Lag**
 > Makes typing in Collabora or ONLYOFFICE perfectly smooth. Redis handles the rapid, continuous background saves in RAM instead of hammering the hard drive.
 
 > [!IMPORTANT]
-> **🛡️ Stops "Stuck" Files**
+> **<img src="https://icongr.am/feather/shield.svg?size=24&color=3b82f6" width="24" height="24" align="top"> Stops "Stuck" Files**
 > If your internet connection drops while you are editing, Redis automatically unlocks the file instantly so your colleagues can get back to work without calling IT.
 
 > [!TIP]
-> **⚡ Speeds up Browsing**
+> **<img src="https://icongr.am/feather/zap.svg?size=24&color=3b82f6" width="24" height="24" align="top"> Speeds up Browsing**
 > Loads your folders and user profiles instantly. Nextcloud pulls this data straight from Redis without ever making you wait for the slow hard drive.
 
 > [!CAUTION]
-> **🛑 Blocks Hackers Instantly**
+> **<img src="https://icongr.am/feather/alert-octagon.svg?size=24&color=3b82f6" width="24" height="24" align="top"> Blocks Hackers Instantly**
 > Tracks bad password attempts in lightning-fast memory, allowing Nextcloud to block attackers immediately before they can crash your database.
 
 ---
@@ -32,10 +32,10 @@ Redis fixes this by using **RAM (Lightning-Fast Memory)** instead of the hard dr
 ```mermaid
 %%{init: {'theme': 'neutral', 'themeVariables': { 'background': 'transparent' }}}%%
 flowchart TD
-    User["👤 You (Laptop or Phone)"] -->|"Clicks a File"| NC["☁️ Nextcloud"]
+    User["You (Laptop or Phone)"] -->|"Clicks a File"| NC["Nextcloud"]
     
-    NC -->|"Fast Tasks (Locks & Temporary Memory)"| R[("⚡ Redis RAM")]
-    NC -->|"Slow Tasks (Saving Final Files)"| DB[("🗄️ Hard Drive Vault")]
+    NC -->|"Fast Tasks (Locks & Temporary Memory)"| R[("Redis RAM")]
+    NC -->|"Slow Tasks (Saving Final Files)"| DB[("Hard Drive Vault")]
 ```
 
 **When you edit a document:**
